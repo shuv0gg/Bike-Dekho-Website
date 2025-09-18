@@ -23,7 +23,7 @@
     </style>
   </head>
   <body>
-    <header class="max-w-[1140px] mx-auto">
+    <header class="max-w-[360px] md:max-w-max lg:max-w-[1140px] mx-auto">
       <div class="navbar bg-base-100 flex justify-between">
         <div class="navbar-start">
           <div class="dropdown">
@@ -145,7 +145,7 @@
           <div id="slide4" class="carousel-item relative w-full">
             <div class="flex flex-col px-24 lg:flex-row lg:justify-between">
               <div class="flex flex-col justify-center gap-5">
-                <h1 class="text-6xl text-black font-bold">
+                <h1 class="text-4xl lg:text-6xl text-black font-bold">
                   Ride-on R15 V4 with Smile
                 </h1>
                 <p class="text-xs font-normal w-auto">
@@ -171,18 +171,25 @@
     <main>
       <section class="max-w-[1140px] mx-auto">
         <div class="flex flex-col justify-center mx-auto mb-12 text-center">
-          <h1 class="font-semibold text-5xl">Fetured Bikes In This Year</h1>
+          <h1 class="font-semibold text-[24px] lg:text-5xl">
+            Fetured Bikes In This Year
+          </h1>
           <p class="text-[#E76F51]">Best bike collection</p>
-          <hr class="text-[#E76F51] max-w-[58.5px]" />
         </div>
-        <div class="flex flex-col lg:flex-row lg:justify-between mb-24">
+        <div
+          class="flex flex-col mx-auto w-[288px] items-center md: gap-5 md:flex-row md:flex-wrap md:w-auto md:justify-center lg:w-auto lg:flex-row lg:justify-between mb-24"
+        >
           <img src="/images/others/feature-bike.png" alt="" />
           <img src="/images/others/feature-bike.png" alt="" />
           <img src="/images/others/feature-bike.png" alt="" />
         </div>
-        <h1 class="text-center text-[#0A0826] text-5xl">Latest News</h1>
-        <div class="flex flex-col gap-5 lg:flex-row">
-          <div class="card p bg-base-100 w-96 shadow-sm">
+        <h1 class="text-center text-[#0A0826] text-[24px] lg:text-5xl">
+          Latest News
+        </h1>
+        <div
+          class="flex flex-col justify-center items-center mx-auto gap-5 md:flex-row md:flex-wrap lg:flex-row lg:flex-nowrap"
+        >
+          <div class="card p bg-base-100 w-80 lg:w-96 shadow-sm">
             <figure class="px-5 pt-5">
               <img
                 src="/images/others/latest1.png"
@@ -207,7 +214,7 @@
               </div>
             </div>
           </div>
-          <div class="card bg-base-100 w-96 shadow-sm">
+          <div class="card bg-base-100 w-80 lg:w-96 shadow-sm">
             <figure class="px-5 pt-5">
               <img
                 src="/images/others/latest2.png"
@@ -232,7 +239,7 @@
               </div>
             </div>
           </div>
-          <div class="card bg-base-100 w-96 shadow-sm">
+          <div class="card bg-base-100 w-80 lg:w-96 shadow-sm">
             <figure class="px-5 pt-5">
               <img
                 src="/images/others/latest3.png"
@@ -262,7 +269,7 @@
           Happy <span class="text-[#E76F51]">Client Says</span>
         </h2>
         <div
-          class="flex flex-col mx-auto mb-[130px] gap-11 lg:flex-row lg:justify-center"
+          class="flex flex-col justify-center items-center mx-auto mb-[130px] gap-11 md:flex-row md:flex-wrap lg:flex-row lg:flex-nowrap"
         >
           <div
             class="card w-80 bg-base-100 shadow-xl hover:shadow-2xl transition duration-300"
@@ -356,19 +363,23 @@
           Frequently Asked <span class="text-[#E76F51]">Questions</span>
         </h2>
         <div
-          class="flex flex-col gap-[92px] mx-auto lg:flex-row justify-between"
+          class="flex flex-col gap-[92px] mx-auto md:flex-row lg:flex-row justify-between"
         >
-          <div><img src="/images/others/faq.png" alt="" /></div>
-          <div class="lg:max-w-[552px]">
+          <div class="w-80 mx-auto lg:w-auto">
+            <img src="/images/others/faq.png" alt="" />
+          </div>
+          <div class="px-4 max-w-[307px] mx-auto lg:max-w-[552px]">
             <div
               class="collapse collapse-arrow bg-base-100 border border-base-300"
             >
               <input type="radio" name="my-accordion-2" checked="checked" />
-              <div class="collapse-title font-semibold text-[20px]">
+              <div
+                class="collapse-title font-semibold text-[16px] lg:text-[20px]"
+              >
                 What are the most important things I should know about riding a
                 bike?
               </div>
-              <div class="collapse-content text-[16px]">
+              <div class="collapse-content text-[14px] lg:text-[16px]">
                 Safety First! Always obey the rules of the road. Obey all
                 traffic signals, signs, and laws. Get in the mindset of
                 “driving” your bike—not just “riding” your bike. This will help
@@ -416,17 +427,19 @@
       </section>
     </main>
     <footer
-      class="footer sm:footer-horizontal bg-[#0B0D17] mt-[130px] text-base-content p-10"
+      class="footer sm:footer-horizontal bg-[#0B0D17] mt-[130px] text-base-content p-2 md:p-8 lg:p-10"
     >
       <div
-        class="text-white flex flex-col px-[165px] md:flex-row lg:flex-row lg:justify-between lg:gap-[475px]"
+        class="text-white flex flex-col max-w-[360px] mx-auto md:max-w-max lg:max-w-max justify-center p-0 lg:px-10 md:flex-row md:justify-between lg:flex-row lg:justify-between md:gap-[120px] lg:gap-[350px]"
       >
         <div>
-          <nav class="flex gap-6 mb-3">
+          <nav class="flex gap-3 lg:gap-6 mb-3">
             <a class="link link-hover">Download Now</a>
             <a class="link link-hover">License</a>
           </nav>
-          <nav class="flex gap-6 mb-3">
+          <nav
+            class="flex flex-wrap gap-6 md:flex-row lg:flex-row lg:gap-6 mb-3"
+          >
             <a class="link link-hover">About </a>
             <a class="link link-hover">Features</a>
             <a class="link link-hover">Pricing</a>
